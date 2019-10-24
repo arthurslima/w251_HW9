@@ -9,7 +9,7 @@
 ## Were your GPUs fully utilized?
   Yes. When running the nvidia-smi command, we can see that the GPUs are at 100% Util (see image attached here named CPU.jpeg)
 ## Did you monitor network traffic (hint: apt install nmon ) ? Was network the bottleneck?
-  Yes, I monitored. It was a bottleneck, therefore we increase the network capacity.
+  Yes, I monitored. It was not a bottleneck.
 ## Take a look at the plot of the learning rate and then check the config file. Can you explan this setting?
   The learning rate decreases with the incrementality of the BLEU score.
 ## How big was your training set (mb)? How many training lines did it contain?
